@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/response_item.dart';
 
 class ApiService {
-  static const String _apiKey = "";
+  static const String _apiKey = ""; // openAI-Key eingeben
 
   static Future<List<ResponseItem>> analyzeTranscript(String transcript) async {
     final prompt = '''
