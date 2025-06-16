@@ -1,1 +1,25 @@
+name: flutter_anamnese_app
+version: 1.0.0+1
+description: >
+  GPT-gestützte Flutter-App zur Analyse pflegerischer Anamnesen
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  csv: ^5.0.2
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/anamnesis_questionnaire.json
 
